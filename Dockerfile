@@ -2,7 +2,7 @@ FROM mhart/alpine-node:12
 
 ADD package*.json /
 RUN npm ci --production
-ADD SlackPrNotification.js /
-RUN chmod +x /SlackPrNotification.js
+ADD SlackPrListNotification.js /
+RUN chmod +x /SlackPrListNotification.js
 
-ENTRYPOINT ["node", "/SlackPrNotification.js"]
+ENTRYPOINT ["node", "/SlackPrListNotification.js"]
