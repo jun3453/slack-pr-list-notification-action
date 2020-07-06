@@ -23,8 +23,5 @@ jobs:
 #### SLACK_WEBHOOK_URL
 Write slack incomming webhook url. Please Set your repository secrets.
 
-#### PULL_REQUEST_*
-See the following URL. https://developer.github.com/v3/pulls/
-
-#### IS_SEND_HERE_MENTION
-boolean. Whether to include a mention here when sending a message.
+#### TEXT
+String. Slack Beginning of sentence.
