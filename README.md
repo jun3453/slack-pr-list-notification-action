@@ -16,7 +16,7 @@ jobs:
         SLACK_WEBHOOK_URL : ${{ secrets.SLACK_WEBHOOK_URL }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         TEXT: "* am10 notification *" 
-      uses: jun3453/slack-pr-list-notification@master
+      uses: jun3453/slack-pr-list-notification-action@master
 ```
 
 ### Arguments
