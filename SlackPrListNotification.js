@@ -30,7 +30,7 @@ getList().then(list => {
                 type: "section",
                 text: {
                     type: "mrkdwn",
-                    text: `*<${ pr.url }|${ pr.title }>*`,
+                    text: `*<${ pr.html_url }|${ pr.title }>*`,
                 },
             }
         )
